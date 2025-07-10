@@ -15,6 +15,14 @@
     "ios": {
       "supportsTablet": true
     },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "L'application a besoin d'accéder à vos photos pour les afficher sur la map"
+        }
+      ]
+    ],
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
