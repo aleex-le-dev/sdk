@@ -14,9 +14,9 @@ export default function MarkerItem({ isDragging }) {
 
 const styles = StyleSheet.create({
   image: {
-    width: 80,
-    height: 80,
+    width: 32,
+    height: 32,
     borderRadius: 12,
-    borderWidth: 4,
+    borderWidth: 1,
   },
 });
